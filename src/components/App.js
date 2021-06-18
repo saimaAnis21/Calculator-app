@@ -12,13 +12,13 @@ function App() {
   };
 
   return (
-
-    <div className="app">
-      <Display result={answer} />
-      <ButtonPanel />
-      {calculate(calculator, '+')}
-    </div>
-
+    <>
+      <div className="app">
+        <Display result={answer} />
+        <ButtonPanel />
+        {calculate(calculator, '+')}
+      </div>
+    </>
   );
 }
 
