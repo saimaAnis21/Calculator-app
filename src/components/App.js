@@ -16,7 +16,7 @@ function App() {
       <div className="app">
         <Display result={answer} />
         <ButtonPanel />
-        {calculate(calculator, '+')}
+        {calculate(calculator)}
       </div>
     </>
   );

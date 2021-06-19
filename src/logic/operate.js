@@ -5,8 +5,24 @@ function operate(numberone, numbertwo, operation) {
   const nmbrTwo = new Big(numbertwo);
   let result = 0;
 
-  if (operation === '+') {
-    result = nmbrOne + nmbrTwo;
+  switch (operation) {
+    case '+':
+      result = nmbrOne + nmbrTwo;
+      break;
+    case '-':
+      result = nmbrOne - nmbrTwo;
+      break;
+    case 'X':
+      result = nmbrOne * nmbrTwo;
+      break;
+    case '%':
+      result = nmbrOne / 100;
+      break;
+    case '&#247;':
+      result = nmbrOne / nmbrTwo;
+      break;
+    default:
+      result = 0;
   }
   return result;
 }
