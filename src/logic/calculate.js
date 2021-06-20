@@ -1,14 +1,14 @@
 import operate from './operate';
 
-function calculate(calculator) {
+function calculate(calculator, buttonName) {
   let { total, next, operation } = calculator;
 
-  if (operation === '+/-') {
+  if (buttonName === '+/-') {
     total *= -1;
     next *= -1;
-  } else if (operation === '+' || operation === '-' || operation === 'X' || operation === '%') {
+  } else if (buttonName === '+' || buttonName === '-' || buttonName === 'X' || buttonName === '%') {
     total = operate(total, next, operation);
-  } else if (operation === 'AC') {
+  } else if (buttonName === 'AC') {
     total = '';
     next = '';
     operation = '';

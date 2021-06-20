@@ -10,13 +10,13 @@ function App() {
     next: '0',
     operation: '+/-',
   };
-
+  const buttonName = '';
   return (
     <>
       <div className="app">
         <Display result={answer} />
         <ButtonPanel />
-        {calculate(calculator)}
+        {calculate(calculator, buttonName)}
       </div>
     </>
   );
