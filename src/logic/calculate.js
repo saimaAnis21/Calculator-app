@@ -1,8 +1,8 @@
 import operate from './operate';
 
 function calculate(calculator) {
-  let { total, next } = calculator;
-  const { operation } = calculator;
+  let { total, next, operation } = calculator;
+
   if (operation === '+/-') {
     total *= -1;
     next *= -1;
