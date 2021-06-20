@@ -19,7 +19,7 @@ function operate(numberone, numbertwo, operation) {
       result = nmbrOne / 100;
       break;
     case '&#247;':
-      result = nmbrOne / nmbrTwo;
+      result = nmbrTwo === 0 ? 'undefined' : nmbrOne / nmbrTwo;
       break;
     default:
       result = 0;
