@@ -10,9 +10,11 @@ function calculate(calculator) {
     total = operate(total, next, operation);
   } else if (operation === 'AC') {
     total = '';
+    next = '';
+    operation = '';
   }
 
-  return total;
+  return { total, next, operation };
 }
 
 export default calculate;
