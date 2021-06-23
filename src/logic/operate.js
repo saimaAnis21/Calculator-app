@@ -7,10 +7,10 @@ function operate(numberone, numbertwo, operation) {
 
   switch (operation) {
     case '+':
-      result = nmbrOne + nmbrTwo;
+      result = parseInt(nmbrOne, 10) + parseInt(nmbrTwo, 10);
       break;
     case '-':
-      result = nmbrOne - nmbrTwo;
+      result = nmbrTwo - nmbrOne;
       break;
     case 'X':
       result = nmbrOne * nmbrTwo;
@@ -18,13 +18,13 @@ function operate(numberone, numbertwo, operation) {
     case '%':
       result = nmbrOne / 100;
       break;
-    case '&#247;':
-      result = nmbrTwo === 0 ? 'undefined' : nmbrOne / nmbrTwo;
+    case '/':
+      result = nmbrTwo === 0 ? 'undefined' : nmbrTwo / nmbrOne;
       break;
     default:
       result = 0;
   }
-  return result;
+  return result.toString();
 }
 
 export default operate;

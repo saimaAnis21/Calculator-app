@@ -8,9 +8,8 @@ function ButtonPanel(props) {
       <div>
         <Button name="AC" clickHandler={handleClick} />
         <Button name="+/-" clickHandler={handleClick} />
-        <Button name="AC" clickHandler={handleClick} />
         <Button name="%" clickHandler={handleClick} />
-        <Button name="&#247;" clickHandler={handleClick} />
+        <Button name="/" clickHandler={handleClick} />
       </div>
       <div>
         <Button name="7" clickHandler={handleClick} />
