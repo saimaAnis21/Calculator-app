@@ -10,16 +10,19 @@ function operate(numberone, numbertwo, operation) {
       result = parseInt(nmbrOne, 10) + parseInt(nmbrTwo, 10);
       break;
     case '-':
-      result = nmbrTwo - nmbrOne;
+      result = nmbrOne - nmbrTwo;
       break;
     case 'X':
       result = nmbrOne * nmbrTwo;
       break;
     case '%':
-      result = nmbrOne / 100;
+      result = (nmbrOne / 100).toFixed(5);
       break;
     case '/':
-      result = nmbrTwo === 0 ? 'undefined' : nmbrTwo / nmbrOne;
+      result = nmbrTwo === 0 ? 'undefined' : (nmbrOne / nmbrTwo).toFixed(5);
+      break;
+    case '=':
+      result = nmbrOne;
       break;
     default:
       result = 0;

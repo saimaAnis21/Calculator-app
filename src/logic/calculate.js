@@ -13,17 +13,14 @@ function calculate(calculator, buttonName) {
     case 'X':
     case '/':
       operation = buttonName;
-      next = total;
-      total = '';
       break;
     case '=':
-      total = operate(total, next, operation);
       operation = buttonName;
       next = '';
       break;
     case '%':
       operation = buttonName;
-      total = operate(total, next, operation);
+      total = operate(total, '0', operation);
       break;
     case '1':
     case '2':
@@ -36,9 +33,11 @@ function calculate(calculator, buttonName) {
     case '9':
     case '0':
     case '.':
-      if (operation === '=') {
-        total = '';
+      if (total === '0') {
         total = buttonName;
+      } else if (operation === '+' || operation === '-' || operation === 'X' || operation === '/') {
+        next = buttonName;
+        total = operate(total, next, operation);
       } else {
         total += buttonName;
       }
