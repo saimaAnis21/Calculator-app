@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import './styles.css';
@@ -24,7 +25,17 @@ const App = () => {
   const { total } = state;
   return (
     <>
-
+      <div>
+        <Link to="/"> Home </Link>
+        {' '}
+        |
+        {' '}
+        <Link to="/App"> Calculator </Link>
+        {' '}
+        |
+        {' '}
+        <Link to="/Quote"> Quote </Link>
+      </div>
       <div className="pt-50 m-auto w-700 d-flex flex-col">
         <Display result={total} />
         <ButtonPanel clickHandler={handleClick} />
