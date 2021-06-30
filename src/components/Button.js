@@ -22,7 +22,7 @@ function Button(props) {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  clickHandler: PropTypes.isRequired,
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default Button;

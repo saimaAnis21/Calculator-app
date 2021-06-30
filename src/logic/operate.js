@@ -19,7 +19,7 @@ function operate(numberone, numbertwo, operation) {
       result = (nmbrOne / 100).toFixed(5);
       break;
     case '/':
-      result = nmbrTwo === 0 ? 'undefined' : (nmbrOne / nmbrTwo).toFixed(5);
+      result = nmbrTwo.eq('0') ? 'undefined' : (nmbrOne / nmbrTwo).toFixed(5);
       break;
     case '=':
       result = nmbrOne;

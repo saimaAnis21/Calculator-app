@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display renders correctly 1`] = `
+<div
+  className="display-panel h-100 w-100p d-flex jc-flexend ai-center "
+>
+  <span
+    className="pr-10"
+  >
+    0
+  </span>
+</div>
+`;

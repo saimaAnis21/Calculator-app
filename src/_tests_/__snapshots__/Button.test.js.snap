@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPanel renders correctly renders correctly 1`] = `
+<button
+  className="bg-btnpanel w-25p h-100p brdr"
+  onClick={[Function]}
+  type="submit"
+>
+  AC
+</button>
+`;

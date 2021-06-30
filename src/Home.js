@@ -1,20 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Home = () => (
   <div>
     <h1> Welcome to our page!</h1>
-    <div>
-      <Link to="/"> Home </Link>
-      {' '}
-      |
-      {' '}
-      <Link to="/App"> Calculator </Link>
-      {' '}
-      |
-      {' '}
-      <Link to="/Quote"> Quote </Link>
-    </div>
     <p>
       https://math-magicians A Web PageMath MagiciansLorem ipsum dolor sit amet,
       consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonPanel renders correctly renders correctly 1`] = `
+<div
+  className="w-100p d-flex flex-col"
+>
+  <div
+    className="h-100"
+  >
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      AC
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      +/-
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      %
+    </button>
+    <button
+      className="orng-btns w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      /
+    </button>
+  </div>
+  <div
+    className="h-100"
+  >
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      7
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      8
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      9
+    </button>
+    <button
+      className="orng-btns w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="h-100"
+  >
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      4
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      5
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      6
+    </button>
+    <button
+      className="orng-btns w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      -
+    </button>
+  </div>
+  <div
+    className="h-100"
+  >
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      1
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      2
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      3
+    </button>
+    <button
+      className="orng-btns w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      +
+    </button>
+  </div>
+  <div
+    className="h-100"
+  >
+    <button
+      className="bg-btnpanel w-50p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      0
+    </button>
+    <button
+      className="bg-btnpanel w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      .
+    </button>
+    <button
+      className="orng-btns w-25p h-100p brdr"
+      onClick={[Function]}
+      type="submit"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
