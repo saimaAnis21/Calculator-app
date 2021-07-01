@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders LinkTo correctly renders Calculator link correctly 1`] = `
+<a
+  className=""
+  href="/App"
+>
+  Calculator
+</a>
+`;
+
+exports[`renders LinkTo correctly renders Home link correctly 1`] = `
+<a
+  className=""
+  href="/"
+>
+  Home
+</a>
+`;
+
+exports[`renders LinkTo correctly renders Quote link correctly 1`] = `
+<a
+  className=""
+  href="/Quote"
+>
+  Quote
+</a>
+`;
