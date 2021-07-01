@@ -5,10 +5,13 @@ A  ![](https://img.shields.io/badge/Microverse-blueviolet)  capstone project for
 
 A Calculator App for a company by the name of Math Magicians
 
+![](Screenshot.png)
+
 ## Built With
 
 - JavaScript
 - React
+- CSS
 
 ## Getting Started
 
@@ -17,6 +20,12 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by typing ```git clone git@github.com:saimaAnis21/Calculator-app.git```
 - cd into the root directory
 - Run git pull origin main
+- run ```npm install``` to install the project dependencies
+- run ```npm start``` to start the project
+
+## Testing
+- run ```npm test``` to run the tests
+
 
 ## Author
 

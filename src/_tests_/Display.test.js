@@ -15,7 +15,6 @@ describe('Display', () => {
   it('renders the outcome that is given as a prop', () => {
     const { container } = render(<Display result="20" />);
     const displayTxt = container.querySelector('span');
-    // expect(displayTxt.textContent).toEqual('20');
     expect(displayTxt).toHaveTextContent('20');
   });
 
